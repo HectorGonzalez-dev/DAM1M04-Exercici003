@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
 }
 
 /* Ajustes para centrar el contenido */
@@ -13,4 +14,30 @@ html, body {
     margin-right: auto; 
     padding-left: 16px; 
     padding-right: 16px; 
+}
+
+.see {
+    background-color: red;
+}
+
+.see2 {
+    background-color: gold;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero_image{
+    width: 100%; /* La imagen ocupa el 100% de ancho de su contenedor */
+    max-width: 1106px; /* Un ancho maximo para pantallas grandes */
+    height: auto; /* Altura en automatico */
+    margin: 46px auto 0; /* Alineacion de la imagen dentro del hero */
+}
+
+.hero_description {
+    max-width: 750px;
+    margin: 40px auto 0;
+    line-height: 1.48;
+    font-size: 20px;
 }
