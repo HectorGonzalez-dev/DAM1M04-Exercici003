@@ -1,0 +1,33 @@
+/* Ajustes para centrar el contenido */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajustes para centrar el contenido */
+.centradoGlobal {
+    width: 100%;
+    max-width: 1264px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#partesuperior{
+    background-color: aqua;
+}
+
+#menus{
+    text-align: center;
+    margin: 0 15% 0;
+    background-color: rgb(183, 134, 228);
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.opcmenu{
+    padding: 7%;
+}
