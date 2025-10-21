@@ -126,3 +126,42 @@ html, body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #1d1c1f;
+    width: calc(50% - 15px);
+    border-radius: 20px;
+}
+
+.card-texto {
+    display: block;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.card-texto h4 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+
+.card-texto p {
+    margin-top: 6px;
+    opacity: .77;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
