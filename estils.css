@@ -15,19 +15,42 @@ html, body {
 
 #partesuperior{
     background-color: aqua;
+    width: 100%;
+    padding: 1% 0 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+#barramenu{
+    background-color: rgb(183, 134, 228);
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-around; /* centrar los elementos en conjunto dejando espacios iguales alrededor */
+    align-items: center;
 }
 
 #menus{
-    text-align: center;
-    margin: 0 15% 0;
-    background-color: rgb(183, 134, 228);
-    border-bottom: 1px solid black;
-}
-
-a{
-    text-decoration: none;
+    width: 80%;
+    background-color: rgb(24, 199, 97);
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos dejando espacios iguales, sin espacio en los extremos */
+    border-bottom: 1px solid rgb(199, 199, 199);
+    gap: 2%;
+    font-size: 15px;
 }
 
 .opcmenu{
-    padding: 7%;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+#menuactual{
+    border-bottom: 1px solid black;
+}
+
+#menu2{
+    
 }
