@@ -89,3 +89,28 @@ html, body {
 .buy-try-buttons__item-icon path {
     fill: currentColor;
 }
+
+.draw-section {
+    padding: 30px 0 188px;
+    color: #f5f5f7;
+    text-align: center;
+    background-color: #000000;
+}
+
+.draw-section h2 {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.draw-section p {
+    max-width: 600px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: -0.001em;
+    opacity: .7;
+}
