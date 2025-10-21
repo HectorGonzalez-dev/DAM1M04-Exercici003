@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
 }
 
 /* Ajustes para centrar el contenido */
@@ -13,4 +14,78 @@ html, body {
     margin-right: auto; 
     padding-left: 16px; 
     padding-right: 16px; 
+}
+
+.see {
+    background-color: red;
+}
+
+.see2 {
+    background-color: gold;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero_image{
+    width: 100%; /* La imagen ocupa el 100% de ancho de su contenedor */
+    max-width: 1106px; /* Un ancho maximo para pantallas grandes */
+    height: auto; /* Altura en automatico */
+    margin: 46px auto 0; /* Alineacion de la imagen dentro del hero */
+}
+
+/* Posicionamiento de la sección de la descripción */
+.hero_description {
+    width: 100%;
+    border-top: #fef8f7 2px solid;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 40px auto 0;
+}
+
+/* Estilos del texto */
+.hero_description p {
+    margin: 0;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 1.48;
+}
+
+/* Estilos del botón */
+.hero_description a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    width: 141px;
+    height: 40px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff4169;
+    background-color: #fff;
+    letter-spacing: -0.02em;
+    border: 1px solid #ff4169;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-color 130ms ease-in-out, color 130ms ease-in-out, background-color 130ms ease-in-out;
+}
+
+.hero_description a:hover {
+    color: #fff;
+    background-color: #ff6482;
+    border-color: #ff6482;
+}
+
+.buy-try-buttons__item-icon {
+    margin-left: 5px;
+}
+
+/* Para ponerle el color al SVG */
+.buy-try-buttons__item-icon path {
+    fill: currentColor;
 }
