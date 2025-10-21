@@ -107,10 +107,22 @@ html, body {
 }
 
 .draw-section p {
-    max-width: 600px;
+    max-width: 680px;
     margin-top: 23px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 20px;
+    line-height: 1.45;
     letter-spacing: -0.001em;
     opacity: .7;
+}
+
+#artwork {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1280px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: auto;
+    margin-left: auto;
 }
