@@ -149,19 +149,45 @@ html, body {
     display: block;
     box-sizing: border-box;
     padding: 50px;
+    padding-top: 30px;
+    text-align: left;
 }
 
 .card-texto h4 {
     font-size: 19px;
-    font-weight: 700;
-    line-height: 1.45;
     letter-spacing: -0.002em;
+    margin-bottom: -10px;
 }
 
 .card-texto p {
-    margin-top: 6px;
     opacity: .77;
     font-size: 17px;
     line-height: 1.45;
     letter-spacing: -0.002em;
+}
+
+.card-img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 50px 0;
+    text-align: left;
+}
+
+.card-img img {
+    width: 100%;
+    max-width: 306px;
+    height: auto;
+}
+
+.card-img2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 50px 33px;
+    text-align: left;
+}
+
+.card-img2 img {
+    width: 100%;
+    max-width: 84px;
+    height: auto;
 }
