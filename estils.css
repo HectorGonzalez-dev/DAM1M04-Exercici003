@@ -24,6 +24,7 @@ html, body {
     background-color: gold;
 }
 
+/* ------------Estilos hero--------------- */
 .hero {
     text-align: center;
 }
@@ -90,6 +91,9 @@ html, body {
     fill: currentColor;
 }
 
+/* ------------------------------------------- */
+
+/* --------------Estilos draw----------------- */
 .draw-section {
     padding: 30px 0 100px;
     color: #f5f5f7;
@@ -200,3 +204,40 @@ html, body {
     max-width: 84px;
     height: auto;
 }
+
+/* ------------------------------------------- */
+
+/* --------Estilos Magically get rid---------- */
+
+.magetrid-section {
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.magetrid-section h2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 680px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.magetrid-section p {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 710px;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: .001em;
+    color: #333333;
+}
+
+.magetrid-section video {
+    border-radius: 20px;
+}
+
+/* ------------------------------------------- */
