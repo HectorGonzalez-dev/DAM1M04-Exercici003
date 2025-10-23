@@ -132,3 +132,33 @@ html, body {
 .botonbuy:hover{
     background-color: #fc5277;
 }
+
+.contenidocentrado{
+    text-align: center;
+}
+
+.Pixelmatortitulo{
+    font-size: 40px;
+    margin: 0;
+}
+
+.textoprecio{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 20px;
+}
+
+.botonbuynow{
+    border: none;
+    padding: 10px 23px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff4169;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.botonbuynow:hover{
+    background-color: #fc5277;
+}
