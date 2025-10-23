@@ -62,7 +62,8 @@ html, body {
 #menusticky{ /* El menú debajo de la línea gris */
     position: sticky; /* Al hacer scroll se quedará arriba de la página y no desaparece */
     top: 0; /* Sin margen cuando quede arriba de la página */
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5); /* fondo semitransparente */
+    backdrop-filter: blur(20px); /* difuminación del fondo semitransparente */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -161,4 +162,13 @@ html, body {
 
 .botonbuynow:hover{
     background-color: #fc5277;
+}
+
+.fondogris{
+    background-color: rgb(233, 233, 233);
+    padding: 10% 26% 10%;
+}
+
+.textoenorme{
+    font-size: 62px;
 }
