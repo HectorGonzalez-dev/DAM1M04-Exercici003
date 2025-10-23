@@ -35,7 +35,6 @@ h4 {
     max-width: 896px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 .cards-item {
@@ -116,7 +115,6 @@ h4 {
     height: 40px;
     padding-left: 4px;
     font-size: 14px;
-    font-weight: 500;
     color: #ff4169;
     background-color: #fff;
     letter-spacing: -0.02em;
@@ -309,5 +307,102 @@ h4 {
 /* ------------------------------------------- */
 
 /* --------Estilos Everything you need-------- */
+
+.design .cards-div {
+    margin-top: 50px;
+}
+
+.design .cards-item {
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+.design .cards-item:nth-child(1) {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.design .cards-item:nth-child(2) {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    width: calc(58.15% - 15px);
+    background-color: #2f434b;
+}
+
+.design .cards-item:nth-child(3) {
+    margin-top: 30px;
+    width: calc(41.85% - 15px);
+    margin-left: 30px;
+}
+
+
+.design .cards-item:nth-child(1) .imagen {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.design .cards-item:nth-child(2) .imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 0 0 50px;
+}
+
+.design .cards-item:nth-child(3) .imagen {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 30px;
+}
+
+.design .cards-item:nth-child(2) .imagen img {
+    display: block;
+}
+
+.design .texto {
+    flex: 0 0 auto;
+    text-align: left;
+    max-width: calc(50% - 15px);
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 0;
+}
+
+.design .texto h4 {
+    margin-top: 0px;
+}
+
+.design .texto p {
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+    opacity: .77;
+}
+
+.design .cards-item:nth-child(2) .texto {
+    max-width: 423px;
+    padding-top: 43%;
+}
+
+.design .cards-item:nth-child(3) .texto {
+    padding-bottom: 0px;
+    max-width: 100%;
+}
+
+.design .cards-item:nth-child(2) .texto p {
+    color: #ffffff;
+}
+
+.design .cards-item:nth-child(3) .texto p {
+    margin-bottom: 0px;
+}
 
 /* ------------------------------------------- */
