@@ -10,10 +10,7 @@ html, body {
 .centradoGlobal {
     width: 100%;
     max-width: 1264px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    padding-left: 16px; 
-    padding-right: 16px; 
+    height: auto;
 }
 
 .see {
@@ -29,6 +26,54 @@ h4 {
     letter-spacing: -0.002em;
     margin-bottom: -10px;
 }
+
+/* ------------Estilos globales--------------- */
+
+.cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.cards-item {
+    border-radius: 20px
+}
+
+.seccion_blanca {
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.seccion_blanca h2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 670px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.seccion_blanca p {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 710px;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: .001em;
+    color: #333333;
+}
+
+.seccion_blanca video {
+    max-width: 816px; 
+    border-radius: 20px;
+}
+/* ------------------------------------------- */
 
 /* ------------Estilos hero--------------- */
 .hero {
@@ -194,41 +239,40 @@ h4 {
     margin-left: auto;
 }
 
-.cards-div {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 896px;
-    margin-right: auto;
-    margin-left: auto;
-    gap: 30px;
-}
-
-.card {
+.draw-section .cards-item:nth-child(1) {
     display: flex;
     flex-direction: column;
-    background-color: #1d1c1f;
+    justify-content: space-between;
+}
+
+.draw-section .cards-item:nth-child(2) {
+    margin-left: 30px;
+}
+
+.draw-section .cards-item:nth-child(1), .draw-section .cards-item:nth-child(2) {
     width: calc(50% - 15px);
-    border-radius: 20px;
 }
 
-.card3 {
+.draw-section .cards-item:nth-child(3) {
     display: flex;
-    flex-direction: row;
-    background-color: #1d1c1f;
+    margin-top: 30px;
     width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
+    justify-content: space-between;
 }
 
-.card-texto {
+.draw-section .cards-item {
+    overflow: hidden;
+    background-color: #1d1c1f;
+}
+
+.cards-item-texto {
     display: block;
     box-sizing: border-box;
     padding: 50px;
-    padding-top: 30px;
     text-align: left;
 }
 
-.card-texto p {
+.cards-item-texto p {
     opacity: .77;
     font-size: 17px;
     line-height: 1.45;
@@ -264,37 +308,6 @@ h4 {
 
 /* ------------------------------------------- */
 
-/* --------Estilos Magically get rid---------- */
-
-.magetrid-section {
-    padding-bottom: 70px;
-    text-align: center;
-    width: 100%;
-}
-
-.magetrid-section h2 {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 680px;
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-}
-
-.magetrid-section p {
-    margin-top: -20px;
-    margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 710px;
-    font-size: 20px;
-    line-height: 1.45;
-    letter-spacing: .001em;
-    color: #333333;
-}
-
-.magetrid-section video {
-    border-radius: 20px;
-}
+/* --------Estilos Everything you need-------- */
 
 /* ------------------------------------------- */
