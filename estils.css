@@ -406,3 +406,34 @@ h4 {
 }
 
 /* ------------------------------------------- */
+
+
+.desanbuilt-section .top-image {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.desanbuilt-section .top-image img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desanbuilt-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 78px;
+    row-gap: 70px;
+}
+
+.desanbuilt-section li {
+    width: 165px;
+}
