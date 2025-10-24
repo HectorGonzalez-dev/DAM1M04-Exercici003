@@ -165,8 +165,33 @@ html, body {
 }
 
 .fondogris{
-    background-color: rgb(233, 233, 233);
-    padding: 10% 26% 10%;
+    background-color: rgb(235, 235, 235);
+    padding: 7% 0 7%;
+}
+
+#weknowyoull{
+    padding: 0 33% 0;
+}
+
+#seccionvaloracion{
+    padding: 0 30% 0;
+}
+
+.partevaloracion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.elementovaloracion{
+    width: 33%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fondoblanco{
+    background-color: white;
+    padding: 10% 0 10%;
 }
 
 .textoenorme{
