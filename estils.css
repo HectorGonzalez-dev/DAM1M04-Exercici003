@@ -515,7 +515,7 @@ h4 {
     color: #ffffff;
 }
 
-.easily-design-section .cards-item:nth-child(2), .cards-item:nth-child(3) {
+.easily-design-section .cards-item:nth-child(2),.easily-design-section .cards-item:nth-child(3) {
     background-color: #f9f9f9;
     width: calc(50% - 15px);
 }
