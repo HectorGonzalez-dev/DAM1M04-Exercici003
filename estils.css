@@ -9,6 +9,199 @@ html, body {
 /* Ajustes para centrar el contenido */
 .centradoGlobal {
     width: 100%;
+    max-width: 1264px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Aquí empieza la página, con la barra de navegación */
+#partesuperior{ /* De la barra, esto ocupa todo el espacio horizontal, y es la base de toda la barra */
+    background-color: white;
+    width: 100%;
+    padding: 1.3% 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.barramenu{ /* Para posicionar el menú */
+    background-color: white;
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+#menus{ /* posicionamiento final del menú, marcando los límites de los extremos de las opciones */
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos dejando espacios iguales, sin espacio en los extremos */
+    border-bottom: 1px solid rgb(199, 199, 199); /* linea gris */
+    font-size: 16px;
+}
+
+.opcmenu{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.opcmenu:hover{
+    color: rgb(109, 109, 109);
+}
+
+#menuactual{
+    border-bottom: 1px solid black; /* linea negra debajo de la opción actual, tipo en que página estas de la web */
+}
+
+#menuactual:hover{
+    color: rgb(109, 109, 109);
+}
+
+#menusticky{ /* El menú debajo de la línea gris */
+    position: sticky; /* Al hacer scroll se quedará arriba de la página y no desaparece */
+    top: 0; /* Sin margen cuando quede arriba de la página */
+    background-color: rgba(255, 255, 255, 0.5); /* fondo semitransparente */
+    backdrop-filter: blur(20px); /* difuminación del fondo semitransparente */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#barramenu2{
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+#menus2{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#partelogo{
+    display: flex;
+    align-items: center;
+}
+
+#menulogo{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#partenavegacion{
+    font-size: 14px
+}
+
+#seleccionactual{
+    color: rgb(109, 109, 109);
+    margin: 7px;
+}
+
+.restoseleccion{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+
+.restoseleccion:hover{
+    color: rgb(109, 109, 109);
+}
+
+#textologo{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.botonbuy{
+    border: none;
+    padding: 5px 11px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff4169;
+    cursor: pointer;
+    border-radius: 11px;
+}
+
+.botonbuy:hover{
+    background-color: #fc5277;
+}
+
+.contenidocentrado{
+    text-align: center;
+}
+
+.Pixelmatortitulo{
+    font-size: 40px;
+    margin: 0;
+}
+
+.textoprecio{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 20px;
+}
+
+.botonbuynow{
+    border: none;
+    padding: 10px 23px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff4169;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.botonbuynow:hover{
+    background-color: #fc5277;
+}
+
+.fondogris{
+    background-color: rgb(235, 235, 235);
+    padding: 7% 0 7%;
+}
+
+#weknowyoull{
+    padding: 0 33% 0;
+}
+
+#seccionvaloracion{
+    padding: 0 30% 0;
+}
+
+.partevaloracion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.elementovaloracion{
+    width: 33%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fondoblanco{
+    background-color: white;
+    padding: 10% 0 10%;
+}
+
+.textoenorme{
+    font-size: 62px;
+}
+
+.textogrande{
+    font-size: 23px;
+}
     max-width: 1264px; 
     height: auto;
 }
