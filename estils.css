@@ -69,8 +69,10 @@ h4 {
 }
 
 .seccion_blanca video {
+    position: relative;
     max-width: 816px; 
     border-radius: 20px;
+    z-index: 2;
 }
 /* ------------------------------------------- */
 
@@ -446,9 +448,113 @@ h4 {
 }
 /* ------------------------------------------- */
 
+/* ----------Estilos Easily Design------------ */
+
+.easily-design-section h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.easily-design-section p {
+    position: relative;
+    z-index: 2;
+    max-width: 660px;
+    margin-top: -440px;
+}
+
+.imagenTitulo {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 827px;
+    margin-top: -287px;
+}
+
+.imagenTitulo img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 2560px;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.easily-design-section .cards-div {
+    position: relative;
+    z-index: 2;
+    gap: 30px;
+}
+
+.easily-design-section .cards-item {
+    overflow: hidden;
+    background-color: #1d1c1f;
+}
+
+.easily-design-section .texto {
+    box-sizing: border-box;
+    text-align: left;
+    padding: 40px;
+}
+
+.easily-design-section .texto p {
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+    margin-top: 20px;
+    opacity: .77;
+}
+
+.easily-design-section .cards-item:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #2abd81;
+}
+
+.easily-design-section .cards-item:nth-child(1) p {
+    color: #ffffff;
+}
+
+.easily-design-section .cards-item:nth-child(2), .cards-item:nth-child(3) {
+    background-color: #f9f9f9;
+    width: calc(50% - 15px);
+}
+
+.easily-design-section .cards-item:nth-child(2) video {
+    border-radius: 0px;
+}
+
+.easily-design-section .cards-item:nth-child(2) .imagen {
+    margin-bottom: 40px;
+}
+
+.easily-design-section .cards-item:nth-child(3) .imagen {
+    padding: 0 50px 33px;
+}
+
+.easily-design-section .cards-item:nth-child(1) .imagen {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    max-width: 516px;
+    text-align: center;
+}
+.easily-design-section .cards-item:nth-child(1) .imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.easily-design-section .cards-item:nth-child(3) .imagen img {
+    width: 100%;
+    height: auto;
+}
+/* ------------------------------------------- */
+
 /* ----------Estilos Advanced features-------- */
 .advftr-section {
-    padding-top: 50px;
+    padding-top: 180px;
     background-color: #f2f2f2;
 }
 
