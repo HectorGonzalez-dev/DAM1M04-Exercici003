@@ -552,6 +552,39 @@ h4 {
 }
 /* ------------------------------------------- */
 
+/* ----Estilos Real-time non-destructive------ */
+
+.rtnd-section {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+}
+
+.rtnd-section h2 {
+    max-width: 800px;
+}
+
+.rtnd-section p {
+    max-width: 690px;
+}
+
+.rtnd-section-info {
+    display: flex;
+    margin-top: 44px;
+}
+
+.rtnd-section-info .imagen{
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+}
+
+.rtnd-section .cards-item:nth-child(1) {
+    background-color: #ffffff;
+}
+
+/* ------------------------------------------- */
+
 /* ----------Estilos Advanced features-------- */
 .advftr-section {
     padding-top: 180px;
