@@ -10,10 +10,7 @@ html, body {
 .centradoGlobal {
     width: 100%;
     max-width: 1264px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    padding-left: 16px; 
-    padding-right: 16px; 
+    height: auto;
 }
 
 .see {
@@ -29,6 +26,53 @@ h4 {
     letter-spacing: -0.002em;
     margin-bottom: -10px;
 }
+
+/* ------------Estilos globales--------------- */
+
+.cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cards-item {
+    border-radius: 20px
+}
+
+.seccion_blanca {
+    padding-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+.seccion_blanca h2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 670px;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.seccion_blanca p {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 710px;
+    font-size: 20px;
+    line-height: 1.45;
+    letter-spacing: .001em;
+    color: #333333;
+}
+
+.seccion_blanca video {
+    max-width: 816px; 
+    border-radius: 20px;
+}
+/* ------------------------------------------- */
 
 /* ------------Estilos hero--------------- */
 .hero {
@@ -71,7 +115,6 @@ h4 {
     height: 40px;
     padding-left: 4px;
     font-size: 14px;
-    font-weight: 500;
     color: #ff4169;
     background-color: #fff;
     letter-spacing: -0.02em;
@@ -194,41 +237,40 @@ h4 {
     margin-left: auto;
 }
 
-.cards-div {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 896px;
-    margin-right: auto;
-    margin-left: auto;
-    gap: 30px;
-}
-
-.card {
+.draw-section .cards-item:nth-child(1) {
     display: flex;
     flex-direction: column;
-    background-color: #1d1c1f;
+    justify-content: space-between;
+}
+
+.draw-section .cards-item:nth-child(2) {
+    margin-left: 30px;
+}
+
+.draw-section .cards-item:nth-child(1), .draw-section .cards-item:nth-child(2) {
     width: calc(50% - 15px);
-    border-radius: 20px;
 }
 
-.card3 {
+.draw-section .cards-item:nth-child(3) {
     display: flex;
-    flex-direction: row;
-    background-color: #1d1c1f;
+    margin-top: 30px;
     width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
+    justify-content: space-between;
 }
 
-.card-texto {
+.draw-section .cards-item {
+    overflow: hidden;
+    background-color: #1d1c1f;
+}
+
+.cards-item-texto {
     display: block;
     box-sizing: border-box;
     padding: 50px;
-    padding-top: 30px;
     text-align: left;
 }
 
-.card-texto p {
+.cards-item-texto p {
     opacity: .77;
     font-size: 17px;
     line-height: 1.45;
@@ -264,37 +306,134 @@ h4 {
 
 /* ------------------------------------------- */
 
-/* --------Estilos Magically get rid---------- */
+/* --------Estilos Everything you need-------- */
 
-.magetrid-section {
-    padding-bottom: 70px;
-    text-align: center;
+.design .cards-div {
+    margin-top: 50px;
+}
+
+.design .cards-item {
+    overflow: hidden;
+    background-color: #efefef;
+}
+
+.design .cards-item:nth-child(1) {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.design .cards-item:nth-child(2) {
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    width: calc(58.15% - 15px);
+    background-color: #2f434b;
+}
+
+.design .cards-item:nth-child(3) {
+    margin-top: 30px;
+    width: calc(41.85% - 15px);
+    margin-left: 30px;
+}
+
+
+.design .cards-item:nth-child(1) .imagen {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.design .cards-item:nth-child(2) .imagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
     width: 100%;
+    padding: 50px 0 0 50px;
 }
 
-.magetrid-section h2 {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 680px;
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -0.02em;
+.design .cards-item:nth-child(3) .imagen {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 30px;
 }
 
-.magetrid-section p {
-    margin-top: -20px;
-    margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 710px;
-    font-size: 20px;
+.design .cards-item:nth-child(2) .imagen img {
+    display: block;
+}
+
+.design .texto {
+    flex: 0 0 auto;
+    text-align: left;
+    max-width: calc(50% - 15px);
+    box-sizing: border-box;
+    padding: 50px;
+    padding-top: 0;
+}
+
+.design .texto h4 {
+    margin-top: 0px;
+}
+
+.design .texto p {
+    margin-top: 18px;
+    font-size: 17px;
     line-height: 1.45;
-    letter-spacing: .001em;
-    color: #333333;
+    letter-spacing: -0.002em;
+    opacity: .77;
 }
 
-.magetrid-section video {
-    border-radius: 20px;
+.design .cards-item:nth-child(2) .texto {
+    max-width: 423px;
+    padding-top: 43%;
+}
+
+.design .cards-item:nth-child(3) .texto {
+    padding-bottom: 0px;
+    max-width: 100%;
+}
+
+.design .cards-item:nth-child(2) .texto p {
+    color: #ffffff;
+}
+
+.design .cards-item:nth-child(3) .texto p {
+    margin-bottom: 0px;
 }
 
 /* ------------------------------------------- */
+
+
+.desanbuilt-section .top-image {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.desanbuilt-section .top-image img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desanbuilt-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 78px;
+    row-gap: 70px;
+}
+
+.desanbuilt-section li {
+    width: 165px;
+}
