@@ -407,6 +407,45 @@ h4 {
 
 /* ------------------------------------------- */
 
+/* ------Estilos Image editing powered-------- */
+.editingPower-section {
+    background-color: #fafafa;
+    padding-top: 10px;
+}
+
+.editingPower-section span {
+    color: #ffcc00;
+}
+
+.editingPower-section p {
+    max-width: 700px;
+}
+
+.editingPower-section .cards-div {
+    justify-content: center;
+    margin-top: 72px;
+    gap: 30px;
+}
+
+.editingPower-section .cards-item {
+    width: calc((100% - (30px * 2)) / 3);
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.editingPower-section .texto {
+    padding: 20px;
+    text-align: center;
+}
+
+.editingPower-section .texto p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    line-height: 1.45;
+    letter-spacing: -0.002em;
+}
+/* ------------------------------------------- */
+
 /* ----------Estilos Advanced features-------- */
 .advftr-section {
     padding-top: 50px;
