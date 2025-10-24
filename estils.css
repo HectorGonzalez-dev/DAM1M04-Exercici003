@@ -407,7 +407,42 @@ h4 {
 
 /* ------------------------------------------- */
 
+/* ----------Estilos Advanced features-------- */
+.advftr-section {
+    padding-top: 50px;
+    background-color: #f2f2f2;
+}
 
+.advftr-section p {
+    max-width: 690px;
+}
+
+.advftr-section ul {
+    display: flex;
+    max-width: 896px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    list-style: none;
+    gap: 121px;
+}
+
+.advftr-section a {
+    display: inline-block;
+    color: #026fc9;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 130ms ease-in-out;
+}
+
+.advftr-section a:hover {
+    color: #358cd4;
+}
+/* ------------------------------------------- */
+
+/* ----------Estilos Designed and built------- */
 .desanbuilt-section .top-image {
     margin-top: 50px;
     text-align: center;
@@ -437,3 +472,4 @@ h4 {
 .desanbuilt-section li {
     width: 165px;
 }
+/* ------------------------------------------- */
